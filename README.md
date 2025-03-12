@@ -69,11 +69,11 @@ Run the Jupyter notebook:
 ![alt text](images/model.png)
 
 ## **Model Performance** 
-- Performance without early stopping
-![alt text](images/noes.png)
- 
-- Performance with early stopping
-![alt text](images/es.png)
+- Performance without early stopping  
+  <img src="images/noes.png" width="400"/>
+
+- Performance with early stopping  
+  <img src="images/es.png" width="400"/>
 
 ## **Prediction Based on Test Data** 
 ![alt text](images/prediction.png) 
