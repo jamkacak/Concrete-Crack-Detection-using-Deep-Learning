@@ -58,8 +58,23 @@ Run the Jupyter notebook:
 - Added custom **fully connected layers** for classification.  
 
 ## **Model Performance**  
-- **Achieved Accuracy:** >90% (target)  
-- **Loss & Accuracy plots**: Available in the `images/` folder  
+- **Achieved Accuracy:** 
+- Model performance during training
+![alt text](images/perf.png)
+
+- Model accuracy using tensorboard
+![alt text](images/acc.png)
+
+- **Loss plots**:
+- Performance without early stopping  
+  <img src="images/noes.png" width="400"/>
+
+- Performance with early stopping  
+  <img src="images/es.png" width="400"/>
+  
+- Loss plot using tensorboard
+![alt text](images/loss.png)
+
 - **Overfitting Prevention:**  
   - `train.ipynb`: No EarlyStopping  
   - `train copy.ipynb`: EarlyStopping + TensorBoard  
@@ -68,12 +83,6 @@ Run the Jupyter notebook:
 - This the architecure for this model training
 ![alt text](images/model.png)
 
-## **Model Performance** 
-- Performance without early stopping  
-  <img src="images/noes.png" width="400"/>
-
-- Performance with early stopping  
-  <img src="images/es.png" width="400"/>
 
 ## **Prediction Based on Test Data** 
 ![alt text](images/prediction.png) 
