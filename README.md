@@ -26,7 +26,7 @@ Cracks in concrete structures can compromise the safety and durability of buildi
 📂 project-root/
 │── 📂 dataset/           # Dataset folder (ignored in Git)
 │── 📂 images/            # Contains model architecture, training process, results
-│── 📂 logs/              # TensorBoard logs for training visualization
+│── 📂 logs/              # TensorBoard logs for training visualization (ignored in Git)
 │── 📂 model/             # Saved trained model (.h5) and scalers (.pkl)
 │── 📄 README.md          # Project documentation
 │── 📄 requirements.txt   # Dependencies list
@@ -63,6 +63,10 @@ Run the Jupyter notebook:
 - **Overfitting Prevention:**  
   - `train.ipynb`: No EarlyStopping  
   - `train copy.ipynb`: EarlyStopping + TensorBoard  
+
+## **Model Architecture** 
+- This the architecure for this model training
+![alt text](images/model.png)
 
 ## **Prediction Based on Test Data** 
 ![alt text](images/prediction.png) 
