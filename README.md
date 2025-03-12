@@ -68,6 +68,10 @@ Run the Jupyter notebook:
 - This the architecure for this model training
 ![alt text](images/model.png)
 
+## **Model Performance** 
+- Performance without early stopping vs early stopping
+![alt text](images/noes.png) ![alt text](images/es.png)
+
 ## **Prediction Based on Test Data** 
 ![alt text](images/prediction.png) 
 
