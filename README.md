@@ -70,7 +70,8 @@ Run the Jupyter notebook:
 
 ## **Model Performance** 
 - Performance without early stopping
-![alt text](images/noes.png) 
+![alt text](images/noes.png)
+ 
 - Performance with early stopping
 ![alt text](images/es.png)
 
